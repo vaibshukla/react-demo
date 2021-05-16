@@ -1,0 +1,34 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "React learning ",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibshukla/react-demo.git"
+  },
+  "author": "Vaibhav Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibshukla/react-demo/issues"
+  },
+  "homepage": "https://github.com/vaibshukla/react-demo#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "parcel": "^2.0.0-beta.2",
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist" : [
+    "last 2 Chrome versions"
+  ]
+}
