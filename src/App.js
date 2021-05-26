@@ -1,16 +1,14 @@
-import React from 'react'
-import {render} from 'react-dom';
-import Pet from './Pet'
-
+import React from "react";
+import { render } from "react-dom";
+import Pet from "./Pet";
+import SearchParam from "./SearchParam";
 
 const App = (props) => {
-  console.log(props)
+  console.log(props);
   return (
     <div>
       <h1>{props.name}</h1>
-      <Pet name="Luna"  animal="Dog" breed="Havenese" />
-      <Pet name="Luna"  animal="Dog" breed="Havenese" />
-      <Pet name="Luna"  animal="Dog" breed="Havenese" />
+      <SearchParam />
     </div>
   );
 };

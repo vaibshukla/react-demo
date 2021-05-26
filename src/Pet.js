@@ -1,6 +1,5 @@
-import React from 'react'
+import React from "react";
 const Pet = (props) => {
-   
   return (
     <div>
       <h2>{props.name}</h2>
@@ -10,6 +9,4 @@ const Pet = (props) => {
   );
 };
 
-
 export default Pet;
-  
